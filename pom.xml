@@ -24,7 +24,7 @@
           
           <configuration>
 			  <suiteXmlFiles>
-				  <suiteXmlFile>sfmaster.xml</suiteXmlFile>
+				  <suiteXmlFile>master.xml</suiteXmlFile>
 			  </suiteXmlFiles>
 		  </configuration>
           </plugin>

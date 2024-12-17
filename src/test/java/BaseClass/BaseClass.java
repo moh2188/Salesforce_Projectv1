@@ -16,6 +16,7 @@ import org.openqa.selenium.Platform;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
@@ -68,7 +69,7 @@ public Properties p;
 			{
 			case "chrome": cap.setBrowserName("chrome");break;
 			case "firefox": cap.setBrowserName("firefox"); break;
-			case "edge": cap.setBrowserName("MicrosoftEdge");break;
+			case "edge": cap.setBrowserName("Edge");break;
 			default: System.out.println("No matching browser"); return;
 			}
 			
@@ -81,7 +82,11 @@ public Properties p;
 					
 		switch(br.toLowerCase())
 		{
-		case "chrome":driver=new ChromeDriver();break;
+		case "chrome":
+			  ChromeOptions options = new ChromeOptions();
+		      options.addArguments("--disable-extensions", "--no-sandbox", "--disable-gpu", "start-maximized");
+		      options.addArguments("--blink-settings=imagesEnabled=false"); // Disable images to speed up loading
+			  driver=new ChromeDriver(options);break;
 		case "edge" : driver=new EdgeDriver(); break;
 		case "firefox": driver=new FirefoxDriver();
 		default : System.out.println("invalid broser name"); return;

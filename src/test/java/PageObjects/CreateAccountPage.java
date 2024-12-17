@@ -6,11 +6,11 @@ import org.openqa.selenium.support.FindBy;
 
 import BasePage.BasePage;
 
-public class AccountPage extends BasePage{
+public class CreateAccountPage extends BasePage{
 
 WebDriver driver;
 	
-	public AccountPage(WebDriver driver)
+	public CreateAccountPage(WebDriver driver)
 	{
 		super(driver);
 	}

@@ -3,7 +3,7 @@ package TestCases;
 import org.testng.annotations.Test;
 
 import BaseClass.BaseClass;
-import PageObjects.AccountPage;
+import PageObjects.CreateAccountPage;
 import PageObjects.HomePage;
 import PageObjects.LoginPage;
 
@@ -26,7 +26,7 @@ public class TC003_CreateAccount extends BaseClass {
 		Thread.sleep(5000);
 		hp.res_app(p.getProperty("applauncher_object"));
 		
-		AccountPage ap=new AccountPage(driver);
+		CreateAccountPage ap=new CreateAccountPage(driver);
 		
 		ap.click_new_account_button();
 		ap.enter_accountname(p.getProperty("accountName"));
