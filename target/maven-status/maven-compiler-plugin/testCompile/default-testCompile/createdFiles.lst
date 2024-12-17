@@ -1,12 +1,14 @@
 TestCases\TC003_CreateAccount.class
 TestCases\TC001_Login.class
+TestCases\TC005_EditAccount.class
 Utilities\Excelutility.class
-PageObjects\AccountPage.class
+PageObjects\CreateAccountPage.class
 TestCases\TC004_SearchAccount.class
 PageObjects\HomePage.class
 PageObjects\LoginPage.class
 TestCases\TC002_LoginDDT.class
 BaseClass\BaseClass.class
+PageObjects\EditAccountPage.class
 Utilities\DataProviders.class
 Utilities\ExtentReportManager.class
 BasePage\BasePage.class

@@ -14,7 +14,7 @@
     <classes>
       <!--<class name="TestCases.TC001_Login"/>-->
       <!--<class name="TestCases.TC002_LoginDDT"/>-->
-      <!--<class name="TestCases.TC003_CreateAccount"/>-->
+      <class name="TestCases.TC003_CreateAccount"/>
       <!--<class name="TestCases.TC004_SearchAccount"/>-->
       <class name="TestCases.TC005_EditAccount"/>
     </classes>

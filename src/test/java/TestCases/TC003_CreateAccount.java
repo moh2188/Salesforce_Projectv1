@@ -29,6 +29,7 @@ public class TC003_CreateAccount extends BaseClass {
 		CreateAccountPage ap=new CreateAccountPage(driver);
 		
 		ap.click_new_account_button();
+		Thread.sleep(3000);
 		ap.enter_accountname(p.getProperty("accountName"));
 		ap.click_save_account_button();
 		Thread.sleep(3000);
