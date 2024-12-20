@@ -1,39 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-12-17T17:26:47 EST" name="Suite1" finished-at="2024-12-17T17:29:10 EST" duration-ms="142878">
+  <suite started-at="2024-12-19T15:25:28 EST" name="Suite1" finished-at="2024-12-19T15:26:18 EST" duration-ms="50253">
     <groups>
     </groups>
-    <test started-at="2024-12-17T17:26:47 EST" name="Test1" finished-at="2024-12-17T17:29:10 EST" duration-ms="142878">
-      <class name="TestCases.TC003_CreateAccount">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:TestCases.TC003_CreateAccount@39de3d36]" started-at="2024-12-17T17:26:47 EST" name="setup" finished-at="2024-12-17T17:26:52 EST" duration-ms="4777" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Windows]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="verify_create_account()[pri:0, instance:TestCases.TC003_CreateAccount@39de3d36]" started-at="2024-12-17T17:26:52 EST" name="verify_create_account" finished-at="2024-12-17T17:27:51 EST" duration-ms="58924" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verify_create_account -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.TC003_CreateAccount@39de3d36]" started-at="2024-12-17T17:27:51 EST" name="tearDown" finished-at="2024-12-17T17:27:51 EST" duration-ms="313" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- TestCases.TC003_CreateAccount -->
+    <test started-at="2024-12-19T15:25:28 EST" name="Test1" finished-at="2024-12-19T15:26:18 EST" duration-ms="50253">
       <class name="TestCases.TC005_EditAccount">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:TestCases.TC005_EditAccount@32c4e8b2]" started-at="2024-12-17T17:27:51 EST" name="setup" finished-at="2024-12-17T17:27:58 EST" duration-ms="6395" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:TestCases.TC005_EditAccount@2ccca26f]" started-at="2024-12-19T15:25:28 EST" name="setup" finished-at="2024-12-19T15:25:32 EST" duration-ms="4468" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -49,11 +23,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verify_edit_account()[pri:0, instance:TestCases.TC005_EditAccount@32c4e8b2]" started-at="2024-12-17T17:27:58 EST" name="verify_edit_account" finished-at="2024-12-17T17:29:10 EST" duration-ms="71890" status="PASS">
+        <test-method signature="verify_edit_account()[pri:0, instance:TestCases.TC005_EditAccount@2ccca26f]" started-at="2024-12-19T15:25:32 EST" name="verify_edit_account" finished-at="2024-12-19T15:26:17 EST" duration-ms="45068" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_edit_account -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.TC005_EditAccount@32c4e8b2]" started-at="2024-12-17T17:29:10 EST" name="tearDown" finished-at="2024-12-17T17:29:10 EST" duration-ms="347" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.TC005_EditAccount@2ccca26f]" started-at="2024-12-19T15:26:17 EST" name="tearDown" finished-at="2024-12-19T15:26:18 EST" duration-ms="492" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

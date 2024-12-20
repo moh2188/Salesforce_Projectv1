@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-12-17T17:13:24 EST" name="Suite1" finished-at="2024-12-17T17:14:40 EST" duration-ms="75770">
+  <suite started-at="2024-12-20T09:07:48 EST" name="Suite1" finished-at="2024-12-20T09:08:35 EST" duration-ms="47826">
     <groups>
     </groups>
-    <test started-at="2024-12-17T17:13:24 EST" name="Test1" finished-at="2024-12-17T17:14:40 EST" duration-ms="75770">
-      <class name="TestCases.TC005_EditAccount">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:TestCases.TC005_EditAccount@efde75f]" started-at="2024-12-17T17:13:24 EST" name="setup" finished-at="2024-12-17T17:13:29 EST" duration-ms="4455" status="PASS">
+    <test started-at="2024-12-20T09:07:48 EST" name="Test1" finished-at="2024-12-20T09:08:35 EST" duration-ms="47826">
+      <class name="TestCases.TC006_AccountRelated">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:TestCases.TC006_AccountRelated@4a3329b9]" started-at="2024-12-20T09:07:48 EST" name="setup" finished-at="2024-12-20T09:07:51 EST" duration-ms="3499" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -23,15 +23,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verify_edit_account()[pri:0, instance:TestCases.TC005_EditAccount@efde75f]" started-at="2024-12-17T17:13:29 EST" name="verify_edit_account" finished-at="2024-12-17T17:14:39 EST" duration-ms="70574" status="PASS">
+        <test-method signature="verify_fileupload()[pri:0, instance:TestCases.TC006_AccountRelated@4a3329b9]" started-at="2024-12-20T09:07:51 EST" name="verify_fileupload" finished-at="2024-12-20T09:08:35 EST" duration-ms="43175" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verify_edit_account -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.TC005_EditAccount@efde75f]" started-at="2024-12-17T17:14:39 EST" name="tearDown" finished-at="2024-12-17T17:14:40 EST" duration-ms="445" status="PASS">
+        </test-method> <!-- verify_fileupload -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.TC006_AccountRelated@4a3329b9]" started-at="2024-12-20T09:08:35 EST" name="tearDown" finished-at="2024-12-20T09:08:35 EST" duration-ms="876" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- TestCases.TC005_EditAccount -->
+      </class> <!-- TestCases.TC006_AccountRelated -->
     </test> <!-- Test1 -->
   </suite> <!-- Suite1 -->
 </testng-results>

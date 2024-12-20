@@ -2,9 +2,7 @@ package TestCases;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
-
 import BaseClass.BaseClass;
-import PageObjects.CreateAccountPage;
 import PageObjects.EditAccountPage;
 import PageObjects.HomePage;
 import PageObjects.LoginPage;
@@ -35,7 +33,7 @@ public class TC005_EditAccount extends BaseClass {
 		hp.click_globalsearch();
 		Thread.sleep(3000);
 		hp.click_globalsearch_dropdown();
-		hp.select_globalsearch_dropdown();
+		hp.select_globalsearch_dropdown(p.getProperty("applauncher_object"));
 		hp.enter_text_globalsearch(p.getProperty("accountName"));
 		Thread.sleep(3000);
 		hp.select_globalsearch_option(p.getProperty("accountName"));

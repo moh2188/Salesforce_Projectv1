@@ -102,12 +102,12 @@ public class HomePage extends BasePage {
 		btn_globalsearch_dropdown.click();
 	}
 	
-	public void select_globalsearch_dropdown()
+	public void select_globalsearch_dropdown(String obj)
 	{
 		for(WebElement x: val_globalsearch_dropdown )
 		{
 			
-			if(x.getText().equals("Accounts"))
+			if(x.getText().equals(obj))
 			{
 				x.click();
 			}

@@ -32,7 +32,7 @@ public class TC004_SearchAccount extends BaseClass{
 		//Thread.sleep(3000);
 		hp.click_globalsearch_dropdown();
 		//Thread.sleep(3000);
-		hp.select_globalsearch_dropdown();
+		hp.select_globalsearch_dropdown(p.getProperty("applauncher_object"));
 		hp.enter_text_globalsearch(p.getProperty("accountName"));
 		Thread.sleep(3000);
 		hp.select_globalsearch_option(p.getProperty("accountName"));

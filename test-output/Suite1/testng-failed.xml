@@ -8,13 +8,13 @@
     <parameter name="OS" value="Windows"/>
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="TestCases.TC005_EditAccount">
+      <class name="TestCases.TC006_AccountRelated">
         <methods>
-          <include name="verify_edit_account"/>
           <include name="tearDown"/>
           <include name="setup"/>
+          <include name="verify_fileupload"/>
         </methods>
-      </class> <!-- TestCases.TC005_EditAccount -->
+      </class> <!-- TestCases.TC006_AccountRelated -->
     </classes>
   </test> <!-- Test1(failed) -->
 </suite> <!-- Failed suite [Suite1] -->
