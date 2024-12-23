@@ -42,7 +42,7 @@ public class TC005_EditAccount extends BaseClass {
 		
 		ep.click_account_dropdown();
 		Thread.sleep(3000);
-		ep.click_account_edit();
+		ep.click_account_edit(p.getProperty("acct_dropdown"));
 		Thread.sleep(5000);
 		
 		ep.click_rating();

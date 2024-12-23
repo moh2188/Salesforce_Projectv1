@@ -38,12 +38,12 @@ public class EditAccountPage extends BasePage{
 		click_AccDropdown.click();
 	}
 	
-	public void click_account_edit()
+	public void click_account_edit(String acct_option)
 	{
 		for(WebElement x:select_edit_options)
 		{
 			
-			if(x.getText().equals("Edit"))
+			if(x.getText().equals("acct_option"))
 			{
 				x.click();
 			}
@@ -72,11 +72,6 @@ public class EditAccountPage extends BasePage{
 	{
 		btn_editsave.click();
 	}
-	
-	
-	
-	
-	
-	
+		
 	
 }

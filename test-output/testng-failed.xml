@@ -6,15 +6,15 @@
   </listeners>
   <test thread-count="5" name="Test1(failed)">
     <parameter name="OS" value="Windows"/>
-    <parameter name="browser" value="chrome"/>
+    <parameter name="browser" value="edge"/>
     <classes>
-      <class name="TestCases.TC006_AccountRelated">
+      <class name="TestCases.TC007_AccountApproval">
         <methods>
+          <include name="verify_accountapproval"/>
           <include name="tearDown"/>
           <include name="setup"/>
-          <include name="verify_fileupload"/>
         </methods>
-      </class> <!-- TestCases.TC006_AccountRelated -->
+      </class> <!-- TestCases.TC007_AccountApproval -->
     </classes>
   </test> <!-- Test1(failed) -->
 </suite> <!-- Failed suite [Suite1] -->
