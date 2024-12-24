@@ -6,7 +6,7 @@
   </listeners>
   <test thread-count="5" name="Test1(failed)">
     <parameter name="OS" value="Windows"/>
-    <parameter name="browser" value="edge"/>
+    <parameter name="browser" value="chrome"/>
     <classes>
       <class name="TestCases.TC007_AccountApproval">
         <methods>

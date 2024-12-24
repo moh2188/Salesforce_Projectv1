@@ -1,24 +1,21 @@
-17:35:49.268 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\mohsi\old eclipse\Salesforce_Projectv1\master.xml"
-17:35:49.748 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+19:18:40.302 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\mohsi\old eclipse\Salesforce_Projectv1\master.xml"
+19:18:40.703 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
   C:\Users\mohsi\old eclipse\Salesforce_Projectv1\master.xml
 
-17:36:48.838 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\mohsi\old eclipse\Salesforce_Projectv1\master.xml"
-17:36:49.135 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+19:55:15.159 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\mohsi\old eclipse\Salesforce_Projectv1\master.xml"
+19:55:15.546 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
   C:\Users\mohsi\old eclipse\Salesforce_Projectv1\master.xml
 
-17:38:45.483 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\mohsi\old eclipse\Salesforce_Projectv1\master.xml"
-17:38:45.757 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+20:08:07.549 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\mohsi\old eclipse\Salesforce_Projectv1\master.xml"
+20:08:07.943 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
   C:\Users\mohsi\old eclipse\Salesforce_Projectv1\master.xml
 
-17:40:13.341 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\mohsi\old eclipse\Salesforce_Projectv1\master.xml"
-17:40:13.608 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+20:09:13.571 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\mohsi\old eclipse\Salesforce_Projectv1\master.xml"
+20:09:13.962 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
   C:\Users\mohsi\old eclipse\Salesforce_Projectv1\master.xml
 
-17:41:55.155 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\mohsi\old eclipse\Salesforce_Projectv1\master.xml"
-17:41:55.453 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+20:28:02.811 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\mohsi\old eclipse\Salesforce_Projectv1\master.xml"
+20:28:03.235 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
   C:\Users\mohsi\old eclipse\Salesforce_Projectv1\master.xml
 
-17:42:25.827 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\mohsi\old eclipse\Salesforce_Projectv1\master.xml"
-17:42:26.074 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
-  C:\Users\mohsi\old eclipse\Salesforce_Projectv1\master.xml
-
+20:34:25.480 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\mohsi\old eclipse\Salesforce_Projectv1\master.xml"

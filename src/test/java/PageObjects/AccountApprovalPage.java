@@ -24,11 +24,29 @@ public class AccountApprovalPage extends BasePage{
 	@FindBy (xpath="//span[normalize-space()='Submit']")
 	WebElement btn_submit;
 	
-	@FindBy (xpath="//flexipage-tab2[@id='tab-8']//a[contains(@title,'Approve')]")
+	@FindBy (xpath="//div[@class='actionsContainer']//ul//li[1]//a[@title='Approve']")
 	WebElement btn_approve1;
 	
 	@FindBy (xpath="//span[normalize-space()='Approve']")
 	WebElement btn_approve2;
+	
+	@FindBy (xpath="//div[@class='slds-combobox_container']//div//div[2]//ul[2]//li")
+	List<WebElement> select_drpdown_option;
+	
+	public void select_gdrp_option(String opt)
+	{
+		for(WebElement x:select_drpdown_option)
+		{
+			if(x.getText().equals(opt))
+			{
+				x.click();
+				
+			}
+			
+		}
+		
+	}
+	
 	
 	public void click_account_approval(String acct_option)
 	{

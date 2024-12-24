@@ -1,5 +1,6 @@
 C:\Users\mohsi\old eclipse\Salesforce_Projectv1\src\test\java\BaseClass\BaseClass.java
 C:\Users\mohsi\old eclipse\Salesforce_Projectv1\src\test\java\BasePage\BasePage.java
+C:\Users\mohsi\old eclipse\Salesforce_Projectv1\src\test\java\PageObjects\AccountApprovalPage.java
 C:\Users\mohsi\old eclipse\Salesforce_Projectv1\src\test\java\PageObjects\AccountRelatedPage.java
 C:\Users\mohsi\old eclipse\Salesforce_Projectv1\src\test\java\PageObjects\CreateAccountPage.java
 C:\Users\mohsi\old eclipse\Salesforce_Projectv1\src\test\java\PageObjects\EditAccountPage.java
@@ -11,6 +12,7 @@ C:\Users\mohsi\old eclipse\Salesforce_Projectv1\src\test\java\TestCases\TC003_Cr
 C:\Users\mohsi\old eclipse\Salesforce_Projectv1\src\test\java\TestCases\TC004_SearchAccount.java
 C:\Users\mohsi\old eclipse\Salesforce_Projectv1\src\test\java\TestCases\TC005_EditAccount.java
 C:\Users\mohsi\old eclipse\Salesforce_Projectv1\src\test\java\TestCases\TC006_AccountRelated.java
+C:\Users\mohsi\old eclipse\Salesforce_Projectv1\src\test\java\TestCases\TC007_AccountApproval.java
 C:\Users\mohsi\old eclipse\Salesforce_Projectv1\src\test\java\Utilities\DataProviders.java
 C:\Users\mohsi\old eclipse\Salesforce_Projectv1\src\test\java\Utilities\Excelutility.java
 C:\Users\mohsi\old eclipse\Salesforce_Projectv1\src\test\java\Utilities\ExtentReportManager.java

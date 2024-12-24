@@ -36,7 +36,7 @@ public class HomePage extends BasePage {
 	@FindBy (xpath="//button[@aria-label='Search' and @type='button']")
 	WebElement element_enable_globalsearch;
 	
-	@FindBy (xpath="//input[@class='slds-input' and @id='input-125']")
+	@FindBy (xpath="//input[@class='slds-input' and @placeholder='Search...']")
 	WebElement enter_value_globalsearch;
 	
 	@FindBy (xpath="//input[@type='text' and @role='combobox']")
