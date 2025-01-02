@@ -8,13 +8,13 @@
     <parameter name="OS" value="Windows"/>
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="TestCases.TC007_AccountApproval">
+      <class name="TestCases.TC008_CreateAccountListView">
         <methods>
-          <include name="verify_accountapproval"/>
           <include name="tearDown"/>
           <include name="setup"/>
+          <include name="verify_AccListView"/>
         </methods>
-      </class> <!-- TestCases.TC007_AccountApproval -->
+      </class> <!-- TestCases.TC008_CreateAccountListView -->
     </classes>
   </test> <!-- Test1(failed) -->
 </suite> <!-- Failed suite [Suite1] -->

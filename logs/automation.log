@@ -1,21 +1,52 @@
-19:18:40.302 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\mohsi\old eclipse\Salesforce_Projectv1\master.xml"
-19:18:40.703 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+15:27:29.257 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
+15:27:29.295 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 32 ms.
+15:27:29.296 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:27:29.297 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:27:29.297 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:27:29.297 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:27:29.299 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:27:29.300 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:27:29.301 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:27:29.303 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:27:29.303 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:27:29.303 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:27:29.305 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:27:29.306 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:27:29.306 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:27:29.306 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:27:29.306 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:27:29.307 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+15:27:29.309 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:27:29.309 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:27:29.309 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:27:29.309 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:27:29.318 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\mohsi\AppData\Local\Temp\testng-eclipse-328040643\testng-customsuite.xml
+
+15:27:29.340 [main] INFO  org.testng.internal.Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 3 ms.
+15:27:29.539 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.jq.Main@460f76a6: 69 ms
+15:27:29.555 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.FailedReporter@2baa8d82: 16 ms
+15:27:29.577 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.XMLReporter@50687efb: 22 ms
+15:27:29.595 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@3b9d6699: 18 ms
+15:27:29.605 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@1b0a7baf: 10 ms
+15:27:29.605 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@62417a16: 0 ms
+15:27:41.775 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\mohsi\old eclipse\Salesforce_Projectv1\master.xml"
+15:27:42.039 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
   C:\Users\mohsi\old eclipse\Salesforce_Projectv1\master.xml
 
-19:55:15.159 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\mohsi\old eclipse\Salesforce_Projectv1\master.xml"
-19:55:15.546 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+15:32:16.645 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\mohsi\old eclipse\Salesforce_Projectv1\master.xml"
+15:32:16.896 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
   C:\Users\mohsi\old eclipse\Salesforce_Projectv1\master.xml
 
-20:08:07.549 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\mohsi\old eclipse\Salesforce_Projectv1\master.xml"
-20:08:07.943 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+15:36:47.822 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\mohsi\old eclipse\Salesforce_Projectv1\master.xml"
+15:36:48.088 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
   C:\Users\mohsi\old eclipse\Salesforce_Projectv1\master.xml
 
-20:09:13.571 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\mohsi\old eclipse\Salesforce_Projectv1\master.xml"
-20:09:13.962 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+15:37:12.938 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\mohsi\old eclipse\Salesforce_Projectv1\master.xml"
+15:37:13.177 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
   C:\Users\mohsi\old eclipse\Salesforce_Projectv1\master.xml
 
-20:28:02.811 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\mohsi\old eclipse\Salesforce_Projectv1\master.xml"
-20:28:03.235 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+15:40:03.358 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\mohsi\old eclipse\Salesforce_Projectv1\master.xml"
+15:40:03.652 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
   C:\Users\mohsi\old eclipse\Salesforce_Projectv1\master.xml
 
-20:34:25.480 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\mohsi\old eclipse\Salesforce_Projectv1\master.xml"

@@ -1,10 +1,7 @@
 package TestCases;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
-
 import BaseClass.BaseClass;
 import PageObjects.AccountRelatedPage;
 import PageObjects.HomePage;

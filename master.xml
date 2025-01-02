@@ -18,7 +18,8 @@
       <!--<class name="TestCases.TC004_SearchAccount"/>-->
       <!--<class name="TestCases.TC005_EditAccount"/>-->
       <!--<class name="TestCases.TC006_AccountRelated"/>-->
-      <class name="TestCases.TC007_AccountApproval"></class>
+      <!--<class name="TestCases.TC007_AccountApproval"></class>-->
+       <class name="TestCases.TC008_CreateAccountListView"></class>
     </classes>
     
   </test> <!-- Test -->

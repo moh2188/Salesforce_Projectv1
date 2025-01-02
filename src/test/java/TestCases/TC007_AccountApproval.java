@@ -4,8 +4,6 @@ import org.testng.annotations.Test;
 
 import BaseClass.BaseClass;
 import PageObjects.AccountApprovalPage;
-import PageObjects.AccountRelatedPage;
-import PageObjects.CreateAccountPage;
 import PageObjects.EditAccountPage;
 import PageObjects.HomePage;
 import PageObjects.LoginPage;
