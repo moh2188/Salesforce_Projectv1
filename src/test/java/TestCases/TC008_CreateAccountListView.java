@@ -39,7 +39,6 @@ public class TC008_CreateAccountListView extends BaseClass{
 	ap.select_ColumnfromAvailable();
 	ap.move_columntodisplay();
 	ap.select_ColumnfromDisplay();
-	Thread.sleep(3000);
 	ap.moveup_displaycolumn();
 	ap.click_saveListViewUpdate();
 	Thread.sleep(3000);

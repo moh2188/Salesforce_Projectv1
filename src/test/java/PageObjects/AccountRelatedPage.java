@@ -55,11 +55,11 @@ public class AccountRelatedPage extends BasePage{
 		btn_saveListView.click();
 	}
 	
-	public void moveup_displaycolumn()
+	public void moveup_displaycolumn() throws InterruptedException
 	{
-		/*int k=select_display_column.size();
-		System.out.println(k);*/
-		for(int i=0;i==2;i++)
+		int k=select_display_column.size();
+		
+		for(int i=k;i>=1;i--)
 		{
 			moveup_displaycolumn.click();
 		}
@@ -67,9 +67,9 @@ public class AccountRelatedPage extends BasePage{
 	
 	public void select_ColumnfromDisplay()
 	{
-		for(WebElement x:select_available_columns)
+		for(WebElement x:select_display_column)
 		{
-			if(x.getText().equals("Phone"))
+			if(x.getText().equals("Active"))
 			{
 				x.click();
 				break;
@@ -89,6 +89,7 @@ public class AccountRelatedPage extends BasePage{
 			if(x.getText().equals("Active"))
 			{
 				x.click();
+				break;
 			}
 		}
 	}
