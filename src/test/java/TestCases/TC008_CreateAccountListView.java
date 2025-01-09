@@ -43,6 +43,13 @@ public class TC008_CreateAccountListView extends BaseClass{
 	ap.click_saveListViewUpdate();
 	Thread.sleep(3000);
 	
+	ap.click_ListViewDropDown();
+	ap.select_listviewoption_delete();
+	Thread.sleep(2000);
+	ap.click_button_listviewdelete();
+	
+	
+	
 	
 	
 	

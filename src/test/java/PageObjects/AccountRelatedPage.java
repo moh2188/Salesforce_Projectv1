@@ -50,6 +50,16 @@ public class AccountRelatedPage extends BasePage{
 	@FindBy (xpath="//button[@class='slds-button slds-button_neutral test-confirmButton uiButton--default uiButton--brand uiButton']")
 	WebElement btn_saveListView;
 	
+	@FindBy (xpath="//button[@class='slds-button slds-button_neutral test-confirmButton uiButton--default uiButton--brand uiButton']")
+	WebElement btn_lv_delete;
+	
+	
+	public void click_button_listviewdelete()
+	{
+		btn_lv_delete.click();
+	}
+	
+	
 	public void click_saveListViewUpdate()
 	{
 		btn_saveListView.click();
@@ -110,6 +120,18 @@ public class AccountRelatedPage extends BasePage{
 		for(WebElement x:options_listview)
 		{
 			if(x.getText().equals("New"))
+			{
+				x.click();
+				break;
+			}
+		}
+	}
+	
+	public void select_listviewoption_delete()
+	{
+		for(WebElement x:options_listview)
+		{
+			if(x.getText().equals("Delete"))
 			{
 				x.click();
 				break;
